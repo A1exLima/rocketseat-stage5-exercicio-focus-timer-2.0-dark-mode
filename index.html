@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Timer estilo Pomodoro desenvolvido por Alex Lima - Desafio Rocketseat Stage 5"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./public/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./public/images/favicon_timer.png"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Focus Timer 2.0</title>
+    <script src="./public/javascript/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="alert-minute-second">
+      <p class="alert">
+        Adicione um valor para MINUTOS e um valor para SEGUNDOS
+      </p>
+    </div>
+    <main>
+      <button class="screen-mode">
+        <img
+          class="screen-mode-img1"
+          src="./public/images/whitemode.svg"
+          alt=""
+        />
+        <img
+          class="screen-mode-img2 hide"
+          src="./public/images/blackMode.svg"
+          alt=""
+        />
+      </button>
+
+      <section class="container-1">
+        <div class="display-timer">
+          <p class="disply-minute">00</p>
+          <span>:</span>
+          <p class="display-second">00</p>
+        </div>
+
+        <div class="control-button">
+          <button class="play">
+            <img
+              class="play-black"
+              src="./public/images/play.svg"
+              alt="Botão Play"
+            />
+            <img
+              class="play-white hide"
+              src="./public/images/screenWhite/play.svg"
+              alt="Botão Play"
+            />
+          </button>
+          <button class="pause hide">
+            <img
+              class="pause-black"
+              src="./public/images/pause.svg"
+              alt="Botão Pause"
+            />
+            <img
+              class="pause-white hide"
+              src="./public/images/screenWhite/pause.svg"
+              alt="Botão Pause"
+            />
+          </button>
+          <button class="stop">
+            <img
+              class="stop-black"
+              src="./public/images/stop.svg"
+              alt="Botão Stop"
+            />
+            <img
+              class="stop-white hide"
+              src="./public/images/screenWhite/stop.svg"
+              alt="Botão Stop"
+            />
+          </button>
+          <button class="encrement">
+            <img
+              class="increment-black"
+              src="./public/images/encrement+.svg"
+              alt="Botão Aumentar tempo em 5 minutos"
+            />
+            <img
+              class="increment-white hide"
+              src="./public/images/screenWhite/encrement+.svg"
+              alt="Botão Aumentar tempo em 5 minutos"
+            />
+          </button>
+          <button class="decrement">
+            <img
+              class="decrement-black"
+              src="./public/images/decrement-.svg"
+              alt="Botão diminuir tempo em 5 minutos"
+            />
+            <img
+              class="decrement-white hide"
+              src="./public/images/screenWhite/decrement-.svg"
+              alt="Botão diminuir tempo em 5 minutos"
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="container-2">
+
+        <div class="container-lofi">
+          <button class="tree">
+            <img
+              class="imgTree1"
+              src="./public/images/tree.svg"
+              alt="Som de floresta"
+            />
+            <img
+              class="imgTree2 hide"
+              src="./public/images/tree_select.svg"
+              alt="Som de floresta"
+            />
+          </button>
+          <input
+            type="range"
+            class="control-volume input-vol-tree"
+            value="0.5"
+            min="0"
+            max="1"
+            step="0.1"
+          />
+        </div>
+        
+        <div class="container-lofi">
+          <button class="cloud">
+            <img
+              class="imgCloud1"
+              src="./public/images/cloud.svg"
+              alt="Som de chuva"
+            />
+            <img
+              class="imgCloud2 hide"
+              src="./public/images/cloud_select.svg"
+              alt="Som de chuva"
+            />
+          </button>
+          <input
+              type="range"
+              class="control-volume input-vol-cloud"
+              value="0.5"
+              min="0"
+              max="1"
+              step="0.1"
+            />
+        </div>
+
+        <div class="container-lofi">
+          <button class="coffe">
+            <img
+              class="imgCoffe1"
+              src="./public/images/store.svg"
+              alt="Som de cafeteria"
+            />
+            <img
+              class="imgCoffe2 hide"
+              src="./public/images/store_select.svg"
+              alt="Som de cafeteria"
+            />
+          </button>
+          <input
+              type="range"
+              class="control-volume input-vol-coffe"
+              value="0.5"
+              min="0"
+              max="1"
+              step="0.1"
+            />
+        </div>
+
+        <div class="container-lofi">
+          <button class="fire">
+            <img
+              class="imgFire1"
+              src="./public/images/fire.svg"
+              alt="Som de lareira"
+            />
+            <img
+              class="imgFire2 hide"
+              src="./public/images/fire_select.svg"
+              alt="Som de lareira"
+            />
+          </button>
+          <input
+              type="range"
+              class="control-volume input-vol-fire"
+              value="0.5"
+              min="0"
+              max="1"
+              step="0.1"
+            />
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>

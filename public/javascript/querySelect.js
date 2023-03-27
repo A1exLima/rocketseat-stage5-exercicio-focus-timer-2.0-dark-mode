@@ -1,0 +1,46 @@
+export const querySelect = {
+  buttonPlay: document.querySelector(".play"),
+  buttonPause: document.querySelector(".pause"),
+  buttonStop: document.querySelector(".stop"),
+  buttonEncrement: document.querySelector(".encrement"),
+  buttonDecrement: document.querySelector(".decrement"),
+
+  buttonLofiTree: document.querySelector(".tree"),
+  buttonLofiCloud: document.querySelector(".cloud"),
+  buttonLofiCoffe: document.querySelector(".coffe"),
+  buttonLofiFire: document.querySelector(".fire"),
+
+  containsTree: document.querySelector(".imgTree1"),
+  containsCloud: document.querySelector(".imgCloud1"),
+  containsCoffe: document.querySelector(".imgCoffe1"),
+  containsFire: document.querySelector(".imgFire1"),
+
+  containsTree2: document.querySelector(".imgTree2"),
+  containsCloud2: document.querySelector(".imgCloud2"),
+  containsCoffe2: document.querySelector(".imgCoffe2"),
+  containsFire2: document.querySelector(".imgFire2"),
+
+  displayMinute: document.querySelector(".disply-minute"),
+  displaySecond: document.querySelector(".display-second"),
+  containerAlertMinSec: document.querySelector(".alert-minute-second"),
+
+  screenModeWhiteToBlack: document.querySelector(".screen-mode-img1"),
+  screenModeBlackToWhite: document.querySelector(".screen-mode-img2"),
+  backgroundMain: document.querySelector("main"),
+  displayTimer: document.querySelector(".display-timer"),
+  playBlack: document.querySelector(".play-black"),
+  playWhite: document.querySelector(".play-white"),
+  pauseBlack: document.querySelector(".pause-black"),
+  pauseWhite: document.querySelector(".pause-white"),
+  stopBlack: document.querySelector(".stop-black"),
+  stopWhite: document.querySelector(".stop-white"),
+  incrementBlack: document.querySelector(".increment-black"),
+  incrementWhite: document.querySelector(".increment-white"),
+  decrementBlack: document.querySelector(".decrement-black "),
+  decrementWhite: document.querySelector(".decrement-white "),
+
+  controlVolTree: document.querySelector(".input-vol-tree"),
+  controlVolCloud: document.querySelector(".input-vol-cloud"),
+  controlVolCoffe: document.querySelector(".input-vol-coffe"),
+  controlVolFire: document.querySelector(".input-vol-fire"),
+}
