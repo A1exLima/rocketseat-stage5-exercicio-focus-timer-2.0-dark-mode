@@ -48,8 +48,8 @@ button {
 
 .screen-mode {
   position: absolute;
-  top: 9rem;
-  right: 9rem;
+  top: 4.5rem;
+  right: 4.5rem;
 }
 main {
   font-size: 1.6rem;
@@ -142,7 +142,10 @@ main {
     padding: 3rem;
   }
 
-
+  .screen-mode {
+    top: 1.5rem;
+    right: 1.5em;
+  }
 
 }
 
@@ -154,6 +157,9 @@ main {
     gap: 2.5rem;
   }
 
-  
+  .screen-mode {
+    top: 1.5rem;
+    right: 1.5em;
+  }
 
 }
